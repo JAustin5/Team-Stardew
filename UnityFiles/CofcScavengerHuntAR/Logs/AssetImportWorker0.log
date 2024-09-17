@@ -588,3 +588,12 @@ Start importing Assets/Scenes/MainScene.unity using Guid(9f0d0960ea72434429fc671
  -> (artifact id: '5f87a6d2a634f356a2cf41fb1a4897d1') in 0.001644 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.218798 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(97ab66112325cb74ca8104d473934ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(97ab66112325cb74ca8104d473934ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '214c09e3a275872d3979ac33156ba9f0') in 0.000935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
