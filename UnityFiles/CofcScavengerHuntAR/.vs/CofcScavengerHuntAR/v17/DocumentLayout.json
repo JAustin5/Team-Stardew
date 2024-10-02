@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{392F7733-DE89-64E6-037A-99581D4C5737}|Assembly-CSharp.csproj|c:\\users\\jdaxm\\documents\\github\\team-stardew\\unityfiles\\cofcscavengerhuntar\\assets\\scripts\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{392F7733-DE89-64E6-037A-99581D4C5737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{392F7733-DE89-64E6-037A-99581D4C5737}|Assembly-CSharp.csproj|c:\\users\\jdaxm\\documents\\github\\team-stardew\\unityfiles\\cofcscavengerhuntar\\assets\\scripts\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{392F7733-DE89-64E6-037A-99581D4C5737}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\Users\\jdaxm\\Documents\\GitHub\\Team-Stardew\\UnityFiles\\CofcScavengerHuntAR\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoginManager.cs",
+              "ToolTip": "C:\\Users\\jdaxm\\Documents\\GitHub\\Team-Stardew\\UnityFiles\\CofcScavengerHuntAR\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoginManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T20:37:22.236Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Register.cs",
               "ToolTip": "C:\\Users\\jdaxm\\Documents\\GitHub\\Team-Stardew\\UnityFiles\\CofcScavengerHuntAR\\Assets\\Scripts\\Register.cs",
               "RelativeToolTip": "Assets\\Scripts\\Register.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T15:35:56.654Z",
               "EditorCaption": ""
