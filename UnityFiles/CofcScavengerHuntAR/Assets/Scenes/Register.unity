@@ -411,6 +411,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141764683}
   m_CullTransparentMesh: 1
+--- !u!1 &246415109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 246415111}
+  - component: {fileID: 246415110}
+  m_Layer: 0
+  m_Name: RegisterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &246415110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246415109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289105e598484143af68eb2c200102a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emailField: {fileID: 0}
+  passwordField: {fileID: 0}
+  msg: {fileID: 0}
+--- !u!4 &246415111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246415109}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &306424386
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +718,7 @@ GameObject:
   - component: {fileID: 855631563}
   - component: {fileID: 855631562}
   m_Layer: 5
-  m_Name: loginRedirectBtn
+  m_Name: LoginRedirectBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1565,7 +1612,7 @@ GameObject:
   - component: {fileID: 1402736789}
   - component: {fileID: 1402736788}
   m_Layer: 5
-  m_Name: registerActBtn
+  m_Name: RegisterActBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1686,7 +1733,7 @@ GameObject:
   - component: {fileID: 2090330270}
   - component: {fileID: 2090330269}
   m_Layer: 5
-  m_Name: passwordRegField
+  m_Name: PasswordRegField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1861,7 +1908,7 @@ GameObject:
   - component: {fileID: 2106106504}
   - component: {fileID: 2106106503}
   m_Layer: 5
-  m_Name: usernameRegField
+  m_Name: UsernameRegField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2031,3 +2078,4 @@ SceneRoots:
   - {fileID: 1156685463}
   - {fileID: 940203634}
   - {fileID: 979776450}
+  - {fileID: 246415111}

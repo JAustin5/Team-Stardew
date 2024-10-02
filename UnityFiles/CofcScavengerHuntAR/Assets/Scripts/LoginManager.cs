@@ -2,75 +2,65 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LoginManager : MonoBehaviour
 {
-    [SerializeField]
-    public TMP_InputField userNameInputField;
-    [SerializeField]
-    public TMP_InputField passwordInputField;
+    public InputField emailInput;
+    public InputField passwordInput;
+    public Text msg;
 
-    public bool ValidEmailDomain(string email)
+    //private string[] validDomains = { "@g.cofc.edu", "@cofc.edu" };
+
+    //private bool IsValidEmailDomain(string email)
+    //{
+    //    foreach (string domain in validDomains)
+    //    {
+    //        if (email.Contains(domain))
+    //        {
+    //            return true;
+    //        }
+    //    }
+    //    return false;
+    //}
+
+    public void Login()
     {
-        string[] emailDomain = email.Split('@');
-        string domain = emailDomain[1];
+        string email = emailInput.text;
+        string password = passwordInput.text;
 
-        string[] validDomains = { "g.cofc.edu", "cofc.edu" };
+        //if (!IsValidEmailDomain(email))
+        //{
+        //    msg.text = "Email must be from a valid CofC email address";
+        //    return;
+        //}
 
-        foreach (string validDomain in validDomains)
+        if (PlayerPrefs.HasKey(email + "_password"))
         {
-            if (domain == validDomain)
+            string savedPassword = PlayerPrefs.GetString(email + "_password");
+            string userRole = PlayerPrefs.GetString(email + "_role");
+
+            if (savedPassword == password)
             {
-                return true;
+                msg.text = "Login successful!";
+                if (userRole == "Admin")
+                {
+                    SceneManager.LoadScene("AdminLocationHandle");
+                }
+                else
+                {
+                    SceneManager.LoadScene("MainScene");
+                }
+            }
+            else
+            {
+                msg.text = "Incorrect password. Try again.";
             }
         }
-
-        feedbackText.text = "Please use a College of Charleston email address.";
-        return false;
-    }
-
-    public void SubmitLogin()
-    {
-        string username = userNameInputField.text;
-        string password = passwordInputField.text;
-
-        //Checking 
-        Debug.Log("USERNAME: " + username);
-        Debug.Log("PASSWORD: " + password);
-
-        string email = userNameInputField.text;
-
-        if (ValidEmailDomain(email))
-        {
-            feedbackText.text = "Valid email. Proceeding with login...";
-        }
         else
         {
-            feedbackText.text = "Invalid email domain.";
+            msg.text = "Email not found. Please register or try again.";
         }
-    }
-
-    private string CheckLoginInfo(string username, string password)
-    {
-        string returnString = "";
-
-        if (string.IsNullOrEmpty(username) && string.IsNullOrEmpty(password))
-        {
-            returnString = "All fields are empty";
-        }
-        if (string.IsNullOrEmpty(username))
-        {
-            returnString = "Username was field empty";
-        }
-        else if (string.IsNullOrEmpty(password))
-        {
-            returnString = "Password field was empty";
-        }
-        else
-        {
-            returnString = "";
-        }
-        Debug.Log("RETURN STRING: " + returnString);
-        return returnString;
-    }
+    }    
 }

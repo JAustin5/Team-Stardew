@@ -717,7 +717,7 @@ GameObject:
   - component: {fileID: 855631563}
   - component: {fileID: 855631562}
   m_Layer: 5
-  m_Name: registerRedirectBtn
+  m_Name: RegisterRedirectBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1611,7 +1611,7 @@ GameObject:
   - component: {fileID: 1402736789}
   - component: {fileID: 1402736788}
   m_Layer: 5
-  m_Name: loginActBtn
+  m_Name: SignInBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1732,7 +1732,7 @@ GameObject:
   - component: {fileID: 2090330270}
   - component: {fileID: 2090330269}
   m_Layer: 5
-  m_Name: passwordLoginField
+  m_Name: PasswordLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1907,7 +1907,7 @@ GameObject:
   - component: {fileID: 2106106504}
   - component: {fileID: 2106106503}
   m_Layer: 5
-  m_Name: usernameLoginField
+  m_Name: UsernameLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
