@@ -730,7 +730,7 @@ GameObject:
   - component: {fileID: 1441008485}
   - component: {fileID: 1441008484}
   m_Layer: 5
-  m_Name: locationName
+  m_Name: LocationName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

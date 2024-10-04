@@ -122,6 +122,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &61422103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 61422105}
+  - component: {fileID: 61422104}
+  m_Layer: 0
+  m_Name: LoginManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &61422104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61422103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdf257bc0ecee548ab1871f00775977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userNameInputField: {fileID: 0}
+  passwordInputField: {fileID: 0}
+--- !u!4 &61422105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61422103}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 406, y: 196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &65272581
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +717,7 @@ GameObject:
   - component: {fileID: 855631563}
   - component: {fileID: 855631562}
   m_Layer: 5
-  m_Name: registerRedirectBtn
+  m_Name: RegisterRedirectBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1565,7 +1611,7 @@ GameObject:
   - component: {fileID: 1402736789}
   - component: {fileID: 1402736788}
   m_Layer: 5
-  m_Name: loginActBtn
+  m_Name: SignInBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1686,7 +1732,7 @@ GameObject:
   - component: {fileID: 2090330270}
   - component: {fileID: 2090330269}
   m_Layer: 5
-  m_Name: passwordLoginField
+  m_Name: PasswordLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1861,7 +1907,7 @@ GameObject:
   - component: {fileID: 2106106504}
   - component: {fileID: 2106106503}
   m_Layer: 5
-  m_Name: usernameLoginField
+  m_Name: UsernameLog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2031,3 +2077,4 @@ SceneRoots:
   - {fileID: 1156685463}
   - {fileID: 940203634}
   - {fileID: 979776450}
+  - {fileID: 61422105}
