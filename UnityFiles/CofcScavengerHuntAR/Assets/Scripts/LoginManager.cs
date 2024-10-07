@@ -11,6 +11,8 @@ public class LoginManager : MonoBehaviour
     public InputField passwordInput;
     public Text msg;
 
+    public bool correctInfo = false;
+
     //private string[] validDomains = { "@g.cofc.edu", "@cofc.edu" };
 
     //private bool IsValidEmailDomain(string email)
@@ -62,5 +64,12 @@ public class LoginManager : MonoBehaviour
         {
             msg.text = "Email not found. Please register or try again.";
         }
-    }    
+    }
+
+    //HEY MAKE SURE LOGIN FUNCTION USES THIS BOOL TO MAKE BUTTON WORK
+   public bool getLoginValidity()
+    {
+        return correctInfo;
+    }
+    
 }

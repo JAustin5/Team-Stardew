@@ -9,6 +9,7 @@ public class RegisterManager : MonoBehaviour
     public InputField emailField;
     public InputField passwordField;
     public Text msg;
+    public bool validRegister = false; //USED IN BTN CLASS
 
     // creation of account email address domains
     private string adminDomain = "@cofc.edu";
@@ -51,5 +52,10 @@ public class RegisterManager : MonoBehaviour
             PlayerPrefs.SetString(email + "_role", role);
             msg.text = "Regstration successful as " + role + "!";
         }
+    }
+
+    public bool getRegValidity() //ADD BOOL CHANGE IN REGISTER ATTEMPT
+    {
+        return validRegister;
     }
 }
