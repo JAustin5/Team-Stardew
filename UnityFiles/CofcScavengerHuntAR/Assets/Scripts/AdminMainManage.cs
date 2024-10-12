@@ -10,7 +10,7 @@ public class AdminMainManage : MonoBehaviour
     public GameObject locationCreationForm;
 
     // Admin card fields
-    public GameObject adminCardPrefab;
+    public GameObject cardPrefab;
     public InputField locationName;
     public InputField locationAddress;
     public InputField coordinateLatitude;
@@ -22,10 +22,13 @@ public class AdminMainManage : MonoBehaviour
     //public Image ; Getting image that is uploaded
 
     // accumlator to keep track of number of created cards to display on Player's screen found vs not found
-    public int createdCardAcc = 0;
+    private int totalLocationCards = 0;
+    private int foundLocationCards = 0;
 
     // Store of cards
-    public List<CardsData> cards = new List<CardsData>();
+    private  List<CardsData> cardList = new List<CardsData>();
+
+    // Data of card --> NOTE: moved to separate Class CardData (has own script)
 
     [System.Serializable]
     public class CardsData
@@ -58,7 +61,7 @@ public class AdminMainManage : MonoBehaviour
             isUnlocked = false
         };
 
-        cards.Add(newCard);
+        cardList.Add(newCard);
         createdCardAcc++;
 
         // TO-DO: Visual representation of card for both Admin and Player screens
@@ -81,7 +84,7 @@ public class AdminMainManage : MonoBehaviour
     // Delete an exsiting card
     public void DeleteCard(CardsData cardData)
     {
-        cards.Remove(cardData);
+        cardList.Remove(cardData);
         //TO-DO: create to destroy card itself from view
         //Destroy();
         createdCardAcc--;

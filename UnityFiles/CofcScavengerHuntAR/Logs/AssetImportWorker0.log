@@ -15,7 +15,7 @@ C:/Users/jdaxm/Documents/GitHub/Team-Stardew/UnityFiles/CofcScavengerHuntAR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61685
+63826
 Successfully changed project path to: C:/Users/jdaxm/Documents/GitHub/Team-Stardew/UnityFiles/CofcScavengerHuntAR
 C:/Users/jdaxm/Documents/GitHub/Team-Stardew/UnityFiles/CofcScavengerHuntAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ C:/Users/jdaxm/Documents/GitHub/Team-Stardew/UnityFiles/CofcScavengerHuntAR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25392]  Target information:
+Player connection [28192]  Target information:
 
-Player connection [25392]  * "[IP] 192.168.1.123 [Port] 0 [Flags] 2 [Guid] 1793470341 [EditorId] 1793470341 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9QRFCJOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28192]  * "[IP] 192.168.1.123 [Port] 0 [Flags] 2 [Guid] 3165155538 [EditorId] 3165155538 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9QRFCJOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25392]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1793470341 [EditorId] 1793470341 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9QRFCJOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28192]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3165155538 [EditorId] 3165155538 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9QRFCJOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25392] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28192] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28192] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 36.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 39.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.45f1 (a13dfa44d684)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Resources/UnitySubsystems
@@ -74,53 +74,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016763 seconds.
-- Loaded All Assemblies, in  0.615 seconds
+Registered in 0.014166 seconds.
+- Loaded All Assemblies, in  0.527 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 389 ms
+Android Extension - Scanning For ADB Devices 1702 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.855 seconds
-Domain Reload Profiling: 1468ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  2.357 seconds
+Domain Reload Profiling: 2883ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (137ms)
-	LoadAllAssembliesAndSetupDomain (206ms)
-		LoadAssemblies (152ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (144ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (182ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (193ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (856ms)
+	FinalizeReload (2359ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (792ms)
+		SetupLoadedEditorAssemblies (2261ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (542ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (1887ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (187ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -131,7 +131,7 @@ Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.814 seconds
+- Loaded All Assemblies, in  1.118 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -147,837 +147,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.936 seconds
-Domain Reload Profiling: 1745ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (516ms)
-		LoadAssemblies (388ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (163ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (936ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (635ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (462ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 23.42 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3673 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (57.7 KB). Loaded Objects now: 4137.
-Memory consumption went from 137.2 MB to 137.2 MB.
-Total: 4.512400 ms (FindLiveObjects: 0.381300 ms CreateObjectMapping: 0.334600 ms MarkObjects: 3.658800 ms  DeleteObjects: 0.129200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 138975.926461 seconds.
-  path: Assets/Scripts/LoginRegisterManager.cs
-  artifactKey: Guid(eab017b7cd5db5e42b24854a0432544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoginRegisterManager.cs using Guid(eab017b7cd5db5e42b24854a0432544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '83837ead1487d698109dcbc7caa70fb0') in 0.001981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 283.058573 seconds.
-  path: Assets/Scripts/LoginRegisterManager.cs
-  artifactKey: Guid(eab017b7cd5db5e42b24854a0432544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoginRegisterManager.cs using Guid(eab017b7cd5db5e42b24854a0432544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e43dc2ec0d3d9c660c5da203e4a622e8') in 0.000910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.586 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.179 seconds
-Domain Reload Profiling: 1760ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (294ms)
-		LoadAssemblies (352ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (8ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1180ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (606ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (428ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 17.47 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (31.6 KB). Loaded Objects now: 4140.
-Memory consumption went from 132.2 MB to 132.2 MB.
-Total: 3.423200 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.952300 ms  DeleteObjects: 0.050800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 28.237023 seconds.
-  path: Assets/Scenes/Login&Register.unity
-  artifactKey: Guid(873bc6673e68b8f4e80017f6d892d37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Login&Register.unity using Guid(873bc6673e68b8f4e80017f6d892d37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7ddbf6588a518d7c261b24c0d2a948c6') in 0.002839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.564 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.065 seconds
-Domain Reload Profiling: 1626ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (354ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (8ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1066ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (480ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 21.34 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (31.6 KB). Loaded Objects now: 4143.
-Memory consumption went from 132.2 MB to 132.2 MB.
-Total: 3.263600 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.829200 ms  DeleteObjects: 0.065800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 477.355423 seconds.
-  path: Assets/Scenes/AdminScreens.unity
-  artifactKey: Guid(01c1e115d1b47764ba48dfffcbf748a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AdminScreens.unity using Guid(01c1e115d1b47764ba48dfffcbf748a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '50df9cb286999411ea7ec0114d7f7ded') in 0.002782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 227.332388 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(88174e7fb8e848b42b553662b4a51d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(88174e7fb8e848b42b553662b4a51d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '471a62c5f752773a7516a3c571a965de') in 0.003118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 643.028574 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9ade305f273d9175e64eef18a01483c0') in 0.000882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.203178 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.000783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 28.795711 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a401f4acfd46113fceb00d6b1dae3587') in 0.038594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 18.954054 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '74996a22c8373a1a6f24198d0c6db6be') in 0.000778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.927737 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.001438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.697373 seconds.
-  path: Assets/Prefabs/New Prefab.prefab
-  artifactKey: Guid(941288250714e624481aebadc51b560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/New Prefab.prefab using Guid(941288250714e624481aebadc51b560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '30abc21df1b28f7c5e16948ca645e087') in 0.002033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.016724 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.000668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.738797 seconds.
-  path: Assets/Prefabs/New Prefab.prefab
-  artifactKey: Guid(941288250714e624481aebadc51b560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/New Prefab.prefab using Guid(941288250714e624481aebadc51b560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '02fe3361422ebd7a081765fbcaa29ce3') in 0.000740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.562876 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.000844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.887139 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.000800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.138890 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.000885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 48.688033 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '55bb4a8d4cc51a5ca20cc545bb03955e') in 0.000649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.028228 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.000745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 63.133350 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e9e68e3e606022756982a97181482c74') in 0.000644 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.363919 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5edcd43f9f2f73e8c3267dcbd388c5f1') in 0.000736 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 35.223059 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '55bb4a8d4cc51a5ca20cc545bb03955e') in 0.000672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.896403 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c2a0f10810021530c1739055ba65195b') in 0.000661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.404927 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '979cb701b5864e68f037b0e9dafa2ba6') in 0.000844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.510003 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '29fbd6e78680e4f7db4b3bf2c7e3f957') in 0.001048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.851913 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '46ece4eeb988284dcbe82c657432d544') in 0.000764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.236821 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd7adee697a14671312685618da7c18d2') in 0.000876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.418626 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cd1baced3d48ff326f955e4b5999d584') in 0.001492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.407637 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '229f4c0fc83f48d0dd50fa57f326d9d8') in 0.000831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.822292 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b1c910c54420bdab596d14812c14f177') in 0.000988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.639359 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '508f164ba1132bcd3d55a0d6aa5f4070') in 0.001018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.819965 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '21455142197540364bd0544e4fe43ffe') in 0.000744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.629283 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0c799969706b420438ded089e729b3a1') in 0.001507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.243952 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fb60dff1d9121df78cc563909a1a0cfe') in 0.000721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.603807 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3cca90660c7aa9a07039de8913cb74bf') in 0.000950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.837418 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9412f1b55a1f11b6b3124b2a0dd77b37') in 0.001276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.151824 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '95054314b63a5478fd225dec752ad59c') in 0.001257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.743321 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4b63d3e96766b0299a6f41f11cf29041') in 0.000727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.673876 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fdd2865d5721df87135159ca5b7f3a6e') in 0.001396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.260287 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1e3fd004580e84f482e7d3c956619d9f') in 0.000894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.985269 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fdd2865d5721df87135159ca5b7f3a6e') in 0.000765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.416537 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4b63d3e96766b0299a6f41f11cf29041') in 0.000654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.756951 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '476b36d90f063a1781167971d3a1b9c1') in 0.001468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.761744 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b287cd4ff07141182502569f812e1aee') in 0.000903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.619620 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '403fa1b132238e66dc1f7d67883a25f9') in 0.000939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.434850 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8d5ffafccb57ce4efdc26eb0d40e9a1c') in 0.000862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.225922 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9edc0f5626191b15694a0410f83a90c6') in 0.000982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.462273 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd54507399ae9cbfe62a007af9dbf537e') in 0.000888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.821004 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5aa5abf460654213c476a36a4ad61d57') in 0.001025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.563593 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e444fe1504533c27df4fb11fe7580ba5') in 0.000869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 46.225823 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(94630f5925d8d7744835f9ca4dd6a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e444fe1504533c27df4fb11fe7580ba5') in 0.001036 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 21.606571 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.001176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 343.054908 seconds.
-  path: Assets/Prefabs/Panel.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Panel.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd4fe87e8e9c4a56e77d5536b6446c9eb') in 0.002606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.024278 seconds.
-  path: Assets/Prefabs/SearchBar.prefab
-  artifactKey: Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SearchBar.prefab using Guid(309d7f858b092f6458979ba5cb04b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cfa3f63aabb3417a87f146018e910c9f') in 0.001393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 16.970433 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '65d96f3dbc9dc99e9505cc511efada08') in 0.000796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.780324 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a995f88deb418d611186867d554ee910') in 0.001882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 27.750990 seconds.
-  path: Assets/Scenes/AdminScreens.unity
-  artifactKey: Guid(01c1e115d1b47764ba48dfffcbf748a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AdminScreens.unity using Guid(01c1e115d1b47764ba48dfffcbf748a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ed66166f224d6d34fa5a962fbf167901') in 0.000878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.184906 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a995f88deb418d611186867d554ee910') in 0.000880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 27.252232 seconds.
-  path: Assets/Prefabs/CardAdmin 1.prefab
-  artifactKey: Guid(8c0980cc795193e44b6de863c69de8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin 1.prefab using Guid(8c0980cc795193e44b6de863c69de8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3a5cd56a3644e8faaf2f59c1f921ee32') in 0.000972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.032019 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a995f88deb418d611186867d554ee910') in 0.001079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 46.256900 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a995f88deb418d611186867d554ee910') in 0.000733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.815959 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '537459b6b9bd6fa8d4a6d6d5b18fee08') in 0.001765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.252088 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bf09ca2d3303b4b2124f89900c7ce1f2') in 0.001316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1252.466816 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bf09ca2d3303b4b2124f89900c7ce1f2') in 0.001580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.419 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.695 seconds
-Domain Reload Profiling: 4104ms
-	BeginReloadAssembly (397ms)
+- Finished resetting the current domain, in  1.166 seconds
+Domain Reload Profiling: 2282ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (94ms)
-	RebuildNativeTypeToScriptingClass (43ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (771ms)
-		LoadAssemblies (940ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (717ms)
+		LoadAssemblies (534ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (65ms)
-			TypeCache.Refresh (28ms)
-				TypeCache.ScanAssembly (11ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2696ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1167ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1407ms)
+		SetupLoadedEditorAssemblies (835ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (95ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (186ms)
-			ProcessInitializeOnLoadAttributes (1038ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 57.97 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 23.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (31.6 KB). Loaded Objects now: 4147.
-Memory consumption went from 132.2 MB to 132.2 MB.
-Total: 8.672700 ms (FindLiveObjects: 1.252800 ms CreateObjectMapping: 0.262400 ms MarkObjects: 7.020300 ms  DeleteObjects: 0.133500 ms)
+Unloading 3673 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (58.1 KB). Loaded Objects now: 4137.
+Memory consumption went from 137.2 MB to 137.1 MB.
+Total: 3.467300 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.294000 ms MarkObjects: 2.704000 ms  DeleteObjects: 0.119000 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -992,14 +203,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 30f5b4ee83fcc40098c3d46d07d27439 -> 6115e32044534f94f540dfc6882ae298
-  custom:scripting/monoscript/fileName/AdminMainManage.cs: c452e3d6bb402925732e29dc9af18c36 -> a755229826554631859de15829865385
 ========================================================================
 Received Import Request.
-  Time since last request: 21.982190 seconds.
-  path: Assets/Prefabs/CardAdmin.prefab
-  artifactKey: Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CardAdmin.prefab using Guid(ff01b5a184dedc0439fd9da32562341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bf09ca2d3303b4b2124f89900c7ce1f2') in 0.009118 seconds
+  Time since last request: 268416.226110 seconds.
+  path: Assets/Scripts/AdminMainManage.cs
+  artifactKey: Guid(50812e01fcd6b22468d82aaa45d8315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AdminMainManage.cs using Guid(50812e01fcd6b22468d82aaa45d8315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2c99936b26ca9e63c9f090310729990') in 0.003060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 229.537477 seconds.
+  path: Assets/Scripts/AdminMainManage.cs
+  artifactKey: Guid(50812e01fcd6b22468d82aaa45d8315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AdminMainManage.cs using Guid(50812e01fcd6b22468d82aaa45d8315e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fbbab1a8d863d621099feaa91554f54d') in 0.002303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.524324 seconds.
+  path: Assets/Scripts/CardsData.cs
+  artifactKey: Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardsData.cs using Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2923f649bc3ede3b8523648926e8d42a') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 144.222462 seconds.
+  path: Assets/Scripts/CardsData.cs
+  artifactKey: Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardsData.cs using Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4a8b4b85497b6863d78a083b7e27d33') in 0.000624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 973.729720 seconds.
+  path: Assets/Scripts/CardsData.cs
+  artifactKey: Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardsData.cs using Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a32ef1a420ed22fc4e3e4eb5354f64b3') in 0.001041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 141.669117 seconds.
+  path: Assets/Scripts/CardsData.cs
+  artifactKey: Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardsData.cs using Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '07161084ccff08ba4b5395ddabd8bf74') in 0.001401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 101.531870 seconds.
+  path: Assets/Scripts/CardsData.cs
+  artifactKey: Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardsData.cs using Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6e00c387ab1127d6f6c2bb0f40e08bed') in 0.001392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 138.958793 seconds.
+  path: Assets/Scripts/CardsData.cs
+  artifactKey: Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardsData.cs using Guid(a0f85e22f5450e445b7d4f0cc378858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b55e1a6304c9b0cb0293c151927a701e') in 0.000957 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
