@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 7174588524382138353}
   - component: {fileID: 8340936321118530787}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: LocationName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,8 +244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3, y: 81.5}
-  m_SizeDelta: {x: -22, y: -447}
+  m_AnchoredPosition: {x: -2.0113, y: 95.21866}
+  m_SizeDelta: {x: -9.0113, y: -419.5627}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3228814430126371084
 CanvasRenderer:

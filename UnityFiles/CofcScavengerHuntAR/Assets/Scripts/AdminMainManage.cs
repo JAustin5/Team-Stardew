@@ -7,14 +7,13 @@ public class AdminMainManage : MonoBehaviour
 {
     // AdminScreens Canvases
     public GameObject adminMainScreenCanvas;
+    public Transform cardContainer;
     public GameObject locationCreationForm;
 
     // Admin card fields
     public GameObject cardPrefab;
     public InputField locationName;
     public InputField locationAddress;
-    public InputField coordinateLatitude;
-    public InputField coordinateLongtitude;
     public InputField locationDescription;
     public InputField cardHint1;
     public InputField cardHint2;
@@ -25,68 +24,71 @@ public class AdminMainManage : MonoBehaviour
     private int totalLocationCards = 0;
     private int foundLocationCards = 0;
 
+
     // Store of cards
     private  List<CardsData> cardList = new List<CardsData>();
 
     // Data of card --> NOTE: moved to separate Class CardData (has own script)
 
-    [System.Serializable]
-    public class CardsData
-    {
-        public string name;
-        public string address;
-        public string latitude;
-        public string longitude;
-        public string description;
-        public string hint1;
-        public string hint2;
-        public string hint3;
-
-        public bool isUnlocked;
-    }
-
     // Card creation (ONLY ADMIN)
-    public void CreateCard()
+    public void CreateCard(string name, string address, string description, string hint1, string hint2, string hint3)
     {
-        CardsData newCard = new CardsData
-        {
-            name = locationName.text,
-            address = locationAddress.text,
-            latitude = coordinateLatitude.text,
-            longitude = coordinateLongtitude.text,
-            description = locationDescription.text,
-            hint1 = cardHint1.text,
-            hint2 = cardHint2.text,
-            hint3 = cardHint3.text,
-            isUnlocked = false
-        };
+        // Need to add converter of address to coordinates
 
+        // Add 'lat' and 'long' to new CardsData
+        CardsData newCard = new CardsData(name, address, description, hint1, hint2, hint3);
         cardList.Add(newCard);
-        createdCardAcc++;
+        DisplayCard(newCard);
 
-        // TO-DO: Visual representation of card for both Admin and Player screens
-        
+        totalLocationCards++;        
     }
+
+    private void DisplayCard(CardsData card)
+    {
+        GameObject cardUI = Instantiate(cardPrefab, cardContainer);
+        cardUI.transform.Find("LocationName").GetComponent<Text>().text = card.name;
+
+        Button editButton = cardUI.transform.Find("EditButton").GetComponent<Button>();
+        Button deleteButton = cardUI.transform.Find("DeleteButton").GetComponent<Button>();
+
+        // Add listeners???
+        //editButton.onClick.AddListener(() => EditCard(card, cardUI));
+        //deleteButton.onClick.AddListener(() => DeleteCard(card, cardUI));
+    }
+
+    // Show the entire card informations
+    //private void DisplayCardScreen(CardsData card)
+    //{
+        
+    //}
 
     // Editing an existing card
-    public void EditCard(CardsData cardData)
+    public void EditCard(CardsData card, GameObject cardUI)
     {
-        locationName.text = cardData.name;
-        locationAddress.text = cardData.address;
-        coordinateLatitude.text = cardData.latitude;
-        coordinateLongtitude.text = cardData.longitude;
-        locationDescription.text = cardData.description;
-        cardHint1.text = cardData.hint1;
-        cardHint2.text = cardData.hint2;
-        cardHint3.text = cardData.hint3;
+        card.name = "New Card Name";
+        cardUI.transform.Find("NameInputField").GetComponent<Text>().text = card.name;
+
+        card.address = "New Address";
+        cardUI.transform.Find("AddressInputField").GetComponent<Text>().text = card.address;
+
+        card.description = "New Description";
+        cardUI.transform.Find("DetailsInputField").GetComponent<Text>().text = card.description;
+
+        card.hint1 = "Hint 1";
+        cardUI.transform.Find("Hint1InputField").GetComponent<Text>().text = card.hint1;
+
+        card.hint2 = "Hint 2";
+        cardUI.transform.Find("Hint2InputField").GetComponent<Text>().text = card.hint2;
+
+        card.hint3 = "Hint 3";
+        cardUI.transform.Find("Hint3InputField").GetComponent<Text>().text = card.hint3;
     }
 
     // Delete an exsiting card
-    public void DeleteCard(CardsData cardData)
+    public void DeleteCard(CardsData card, GameObject cardUI)
     {
-        cardList.Remove(cardData);
-        //TO-DO: create to destroy card itself from view
-        //Destroy();
-        createdCardAcc--;
+        cardList.Remove(card);
+        Destroy(cardUI);
+        totalLocationCards--;
     }
 }
