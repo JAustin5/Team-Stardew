@@ -38,7 +38,11 @@ public class AdminMainManage : MonoBehaviour
         // Add 'lat' and 'long' to new CardsData
         CardsData newCard = new CardsData(name, address, description, hint1, hint2, hint3);
         cardList.Add(newCard);
+
         DisplayCard(newCard);
+
+        
+
 
         totalLocationCards++;        
     }
@@ -87,8 +91,15 @@ public class AdminMainManage : MonoBehaviour
     // Delete an exsiting card
     public void DeleteCard(CardsData card, GameObject cardUI)
     {
+
         cardList.Remove(card);
         Destroy(cardUI);
         totalLocationCards--;
+
+        //cardList.Remove(cardData);
+        //TO-DO: create to destroy card itself from view
+        //Destroy();
+
+
     }
 }
