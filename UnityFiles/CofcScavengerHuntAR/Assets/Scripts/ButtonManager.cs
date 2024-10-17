@@ -9,6 +9,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] //Allows for value changes in editor, anything directly under (no line break) will show
     public LoginManager logMan;
     public RegisterManager regMan;
+    public ClydeMenuManager clydeMenuManager;
     public bool rightLogin = false;
     public bool validRegister = false;
     // Start is called before the first frame update
@@ -64,5 +65,10 @@ public class ButtonManager : MonoBehaviour
     public void sceneChange(string name)
     {
         SceneManager.LoadScene(name);
+    }
+
+    public void closeCurrentPanel()
+    {
+        clydeMenuManager.HideClydePanel();
     }
 }

@@ -9,10 +9,13 @@ public class ClydePointer : MonoBehaviour
 
     LocationStatus playerLocation;
     public Vector2d clydePointerPos;
+    [SerializeField]
+    public ClydeMenuManager cMManager;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        cMManager = GameObject.Find("Canvas").GetComponent<ClydeMenuManager>();
     }
 
     // Update is called once per frame
@@ -29,5 +32,10 @@ public class ClydePointer : MonoBehaviour
         var eventLocation = new GeoCoordinatePortable.GeoCoordinate(clydePointerPos[0], clydePointerPos[1]);
         var distance = currentPlayerLoc.GetDistanceTo(eventLocation);
         Debug.Log("*RAWRUWU* Distance = " + distance);
+
+        if(distance <= 100)
+        {
+            cMManager.DisplayClydePanel();
+        }
     }
 }
